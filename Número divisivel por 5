@@ -1,0 +1,23 @@
+//Entrar com um número e informar se ele é ou não divisível por 5.
+
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    double n1;
+
+    Scanner scan = new Scanner(System.in);
+    
+    System.out.println("Entre com um número");
+    n1 = scan.nextDouble();
+
+    if (n1 % 5 == 0){
+      System.out.println("Este número é divisivel por 5");
+    } else {
+      System.out.println("Este número não é divisivel por 5");
+    }
+   
+    
+
+    
+  }
+}
