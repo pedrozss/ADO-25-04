@@ -1,0 +1,24 @@
+//Entrar com dois números reais e imprimir a média aritmética com a mensagem “média: “ antes do resultado
+
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    float n1,n2;
+
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Entre com dois números reais");
+    System.out.println("");
+    System.out.println("Entre com o primeiro número: ");
+    n1 = scan.nextFloat();
+    System.out.println("Entre com o segundo número: ");
+    n2 = scan.nextFloat();
+
+    float media = (n1+n2) /2;
+
+    System.out.println("Média: " + media);
+
+    
+
+    
+  }
+}
