@@ -1,0 +1,19 @@
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    int n1,n2;
+
+    Scanner scan = new Scanner(System.in);
+
+    System.out.println("Digite a distância total em (km) percorrida");
+    n1 = scan.nextInt();
+    System.out.println("Digite o consumo de combustivel em (l)");
+    n2 = scan.nextInt();
+
+    int media = n1/n2;
+
+    System.out.println("Ele consome em média: " + media + "km/l");
+
+    
+  }
+}
