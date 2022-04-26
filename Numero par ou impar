@@ -1,0 +1,24 @@
+//Entrar com um numero e verificar se ele é par ou impar.
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+  int n1;
+
+    Scanner scan = new Scanner(System.in);
+
+    System.out.println("Digite um número");
+    n1 = scan.nextInt();
+
+    if ((n1 % 2) == 0){
+      System.out.println("Este é um número par");
+    } else if ((n1 % 2) == 1){
+      System.out.println("Este é um número impar");
+    } else {
+      System.out.println("Número inválido");
+    }
+    
+    
+
+    
+  }
+}
