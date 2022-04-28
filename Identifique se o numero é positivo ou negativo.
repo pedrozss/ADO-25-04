@@ -8,10 +8,12 @@ class Main {
     System.out.println("Digite um número");
     nmr = scan.nextInt();
 
-    if (nmr <=0) {
+    if (nmr <0) {
       System.out.println("Este é um número negativo");}
-    else if (nmr >=0){
+    else if (nmr >0){
       System.out.println("Este é um número positivo");
+    }else {
+      System.out.println("Igual á zero");
     }
 
     
